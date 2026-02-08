@@ -35,3 +35,12 @@ Start the development server
 
   5.src/lib/validation.ts — Config-aware validation engine.
 
+### New field addition 
+  -In src/config/userFields.ts, just add:
+    {
+      name: "dateOfBirth",
+      label: "Date of Birth",
+      type: "date",
+      placeholder: "Select date",
+      required: false,
+    }
